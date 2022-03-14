@@ -21,7 +21,7 @@ const vraag = function (vraag) {
  */
 vraag.create = async function (vraag) {
     const rows = await db.query(
-        `INSERT INTO vraag SET name = ?, description = ?, avatar = ?, url = ?`,
+        `INSERT INTO vragen SET subvragen = ?, vragenlijst_id = ?, competentie_id = ?`,
         prepareForInsert(vraag)
     );
     vraag.vraagId = rows.insertId;
@@ -98,7 +98,7 @@ module.exports = vraag;
  * @returns [] an array to be used in the insert query
  */
 function prepareForInsert(vraag) {
-    return [vraag.name, vraag.description, vraag.avatar, vraag.url];
+    return [vraag.subvragen, vraag.vragenlijst_id, vraag.competentie_id];
 }
 
 /**
@@ -109,5 +109,5 @@ function prepareForInsert(vraag) {
  */
 function prepareForUpdate(vraag) {
     // TODO: Check for sanity...
-    return [...prepareForInsert(vraag), vraag.vraagId];
+    return [...prepareForInsert(vraag), vraag.vraag_id];
 }
