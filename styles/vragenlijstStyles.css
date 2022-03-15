@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+:root {
+    --darkBlue: #152853;
+    --lightBlue: #4daae5;
+}
+
+
+
+.navContainer {
+    display: flex;
+    list-style: none;
+    padding: 2rem 0rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+}
+
+.navContainer li {
+
+    padding-right: 2rem;
+}
+
+.navLink {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--lightBlue);
+}
+
+.navLink:hover {
+    color: var(--darkBlue);
+}
+
+.navLink:focus {
+    color: #ffffff;
+    background-color: var(--lightBlue);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+
+.average {
+    color: var(--darkBlue);
+    font-weight: 400;
+    margin: 0 4rem 0 auto;
+
+}
+
+.introSection {
+    background-color: var(--darkBlue);
+    color: #ffffff;
+}
+
+.introSection div {
+    background-color: var(--darkBlue);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: inherit;
+    z-index: -1;
+}
+
+
+.introSection h1 {
+    font-size: 2rem;
+}
+
+.introSection p {
+    max-width: 60rem;
+}
+
+.introSection h1,
+p,
+ul {
+
+    padding-left: 10rem;
+    /* padding-right: 5rem; */
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+.introSection ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.introSection a {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 2.5rem;
+
+}
+
+.introSection a:focus {
+    color: var(--darkBlue);
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.competentieVragenlijst {
+    margin-left: 10rem;
+}
+
+.competentieVragenlijst h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.competentieHeader {
+    color: var(--lightBlue);
+
+}
