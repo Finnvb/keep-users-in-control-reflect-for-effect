@@ -12,6 +12,7 @@
 :root {
     --darkBlue: #152853;
     --lightBlue: #4daae5;
+
 }
 
 
@@ -115,10 +116,81 @@ ul {
 
 .competentieVragenlijst h2 {
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin: 1rem 0;
+
 }
 
 .competentieHeader {
     color: var(--lightBlue);
 
 }
+
+
+
+
+
+
+
+
+.radio-list{
+    display: flex;
+}
+
+
+.radio-item [type="radio"]{
+    display: none;
+}
+
+
+.radio-item label{
+    display: block;
+    padding: 20px 60px;
+    background: var(--lightBlue);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    min-width: 150px;
+    white-space: nowrap;
+    position: relative;
+    color: white;
+    margin-right: 25px;
+}
+.radio-item label:after,
+.radio-item label:before{
+    /* content: ""; */
+    /* position: absolute; */
+    /* border-radius: 50%; */
+ 
+}
+
+.radio-item label:after{
+    height: 20px;
+    width: 20px;
+    border:2px solid #524eee;
+    left: 20px;
+    top: calc(50% - 12px);
+}
+.radio-item label:before{
+    background: #524eee;
+    height: 10px;
+    width: 10px;
+    left: 27px;
+    top: calc(50% - 5px);
+    transform: scale(5);
+    transition: .4s ease-in-out 0s;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+.radio-item [type="radio"]:checked ~ label{
+    border-color: #524eee;
+    background: var(--darkBlue);
+}
+
+.radio-item [type="radio"]:checked ~ label:before{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
