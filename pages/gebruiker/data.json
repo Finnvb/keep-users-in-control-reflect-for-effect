@@ -1,0 +1,130 @@
+[{
+    "number": 1,
+    "title": "Seksuele opvoeding in de jeugdhulp meting 1",
+    "uitleg": "Beste Deelnemer................",
+    "competentie": [{
+        "title": "Competentie",
+        "uitleg": " ",
+        "vraag": [{
+            "title": "hoeveel vertrouwen heeft u dat u signalen herkent van:",
+            "subvraag": [{
+                    "title": "trauma",
+                    "score": [{
+                        "id": "1",
+                        "title": "GEEN"
+                    }, {
+                        "id": "2",
+                        "title": "WEINIG"
+                    }, {
+                        "id": "3",
+                        "title": "NIET VEEL NIET WEINIG"
+                    }, {
+                        "id": "4",
+                        "title": "VEEL"
+                    }, {
+                        "id": "5",
+                        "title": "HEEL VEEL"
+                    }]
+                },
+                {
+                    "title": "Riskant sociale media gedrag",
+                    "score": [{
+                        "id": "1",
+                        "title": "GEEN"
+                    }, {
+                        "id": "2",
+                        "title": "WEINIG"
+                    }, {
+                        "id": "3",
+                        "title": "NIET VEEL NIET WEINIG"
+                    }, {
+                        "id": "4",
+                        "title": "VEEL"
+                    }, {
+                        "id": "5",
+                        "title": "HEEL VEEL"
+                    }]
+                },
+                {
+                    "title": "Slachtoffer zijn van seksueel grensoverschrijdend gedrag of seksueel misbruik",
+                    "score": [{
+                        "id": "1",
+                        "title": "GEEN"
+                    }, {
+                        "id": "2",
+                        "title": "WEINIG"
+                    }, {
+                        "id": "3",
+                        "title": "NIET VEEL NIET WEINIG"
+                    }, {
+                        "id": "4",
+                        "title": "VEEL"
+                    }, {
+                        "id": "5",
+                        "title": "HEEL VEEL"
+                    }]
+                },
+                {
+                    "title": "Kwetsbaarheid bij groepen met een verhoogd risico grensoverschrijdend gedrag (bijvoorbeeld autisme)",
+                    "score": [{
+                        "id": "1",
+                        "title": "GEEN"
+                    }, {
+                        "id": "2",
+                        "title": "WEINIG"
+                    }, {
+                        "id": "3",
+                        "title": "NIET VEEL NIET WEINIG"
+                    }, {
+                        "id": "4",
+                        "title": "VEEL"
+                    }, {
+                        "id": "5",
+                        "title": "HEEL VEEL"
+                    }]
+                },
+                {
+                    "title": "Pleger zijn van seksueel grensoverschrijdend gedrag of seksueel misbruik",
+                    "score": [{
+                        "id": "1",
+                        "title": "GEEN"
+                    }, {
+                        "id": "2",
+                        "title": "WEINIG"
+                    }, {
+                        "id": "3",
+                        "title": "NIET VEEL NIET WEINIG"
+                    }, {
+                        "id": "4",
+                        "title": "VEEL"
+                    }, {
+                        "id": "5",
+                        "title": "HEEL VEEL"
+                    }]
+                },
+                {
+                    "title": "Seksuele exploitatie en prostitutie meisjes",
+                    "score": [{
+                        "id": "1",
+                        "title": "GEEN"
+                    }, {
+                        "id": "2",
+                        "title": "WEINIG"
+                    }, {
+                        "id": "3",
+                        "title": "NIET VEEL NIET WEINIG"
+                    }, {
+                        "id": "4",
+                        "title": "VEEL"
+                    }, {
+                        "id": "5",
+                        "title": "HEEL VEEL"
+                    }]
+                }
+
+
+            ]
+
+        }]
+    }]
+}]
