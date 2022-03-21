@@ -188,7 +188,7 @@ ul {
     background: var(--darkBlue);
 }
 
-.radio-item [type="radio"]:checked ~ label:before{
+.radio-item [type="radio"]:checked  label:before{
     opacity: 1;
     visibility: visible;
     transform: scale(1);
