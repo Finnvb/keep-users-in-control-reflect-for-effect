@@ -1,9 +1,9 @@
 [{
-    "number": 1,
+    "number": "Meting 1" ,
     "title": "Seksuele opvoeding in de jeugdhulp meting 1",
-    "uitleg": "Beste Deelnemer................",
+    "uitleg": "Beste Deelnemer, Hierbij de eerste vragenlijst over seksuele opvoeding in de jeugdhulp. Deze vragen sluiten aan bij de eerste les training 'Seksualiteit en Opvoeden'. Het invullen van de vragenlijst duurt ongeveer 30 minuten en is anoniem. Er zijn geen goede of foute antwoorden. Alvast hartelijk dank voor het invullen. Groet, projectteam HvA en Qpido",
     "competentie": [{
-        "title": "Competentie",
+        "title": "COMPETENTIE HERKENNEN EN SIGNALEREN",
         "uitleg": " ",
         "vraag": [{
             "title": "hoeveel vertrouwen heeft u dat u signalen herkent van:",
@@ -65,7 +65,7 @@
                     }]
                 },
                 {
-                    "title": "Kwetsbaarheid bij groepen met een verhoogd risico grensoverschrijdend gedrag (bijvoorbeeld autisme)",
+                    "title": "Kwetsbaarheid bij groepen met een verhoogd risico grensoverschrijdend gedrag",
                     "score": [{
                         "id": "1",
                         "title": "GEEN"
