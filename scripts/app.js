@@ -11,7 +11,8 @@ let answers = document.querySelectorAll("label");
 
 let getData = fetch("data.json")
 .then(response => response.json())
-.then(getData => renderData(getData));
+.then(getData => renderData(getData))
+.catch(err => { console.log(err) });
 
 
 
@@ -32,23 +33,7 @@ for (let index = 0; index < questionsHeader.length; index++) {
 }
 
 
-// myFunction();
+
 
 }
 
-
-// function myFunction() {
-
-//     // Create a p element:
-//     const para = document.createElement("p");
-    
-//     // Create a text node:
-//     const node = document.createTextNode("This is a paragraph.");
-    
-//     // Append text node to the p element:
-//     para.appendChild(node);
-    
-//     // Append the p element to the body:
-//     // document.getElementById("myDIV").appendChild(para);
-//     document.querySelector(".competentieVragenlijst").appendChild(para);
-//     }
